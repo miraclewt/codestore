@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{e2cb55ae-b636-4ab0-b441-37716e1a9eda}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile />
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="cal2jd.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="deg2rad.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dms2deg.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dms2rad.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="doy2jd.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ecef2lla.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gps2jd.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ell2xyz.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ell2utm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="jd2cal.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="jd2dow.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="jd2doy.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rad2deg.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rad2dms.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rad2sec.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sec2rad.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sph2xyz.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="README.md">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="yr2jd.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="xyz2sph.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="xyz2ell3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="xyz2ell2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="xyz2ell.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".pylintrc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
