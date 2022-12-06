@@ -1,0 +1,12 @@
+1. Install Sublime Text normal or portable version.
+
+2. Run our keygen as administrator. Click "Patch", select "sublime_text.exe" in program dir.
+
+3. Generate a Sublime Text license and copy/paste it in the registration window in Sublime Text.
+
+4. You should dsable auto update!
+
+5. Sublime Text is now activated.
+
+Enjoy it!
+/X-FORCE 2022
